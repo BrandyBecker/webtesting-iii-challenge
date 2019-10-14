@@ -16,3 +16,11 @@ const Controls = props => {
 };
 
 export default Controls;
+
+/*
+Disabled={not closed}, onClick={toggleLocked}
+Is gate locked? If so, 'Unlock Gate'. If not, 'Lock Gate'
+----------------------------------------------------------------
+Disabled={locked} onClick={toggleClosed}
+Is gate closed? If so, 'Open Gate'. If not, 'Close Gate'.
+*/
